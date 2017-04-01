@@ -9,9 +9,9 @@ class API_adapter(object):
         Load Oauth keys
         '''
 
-        FLICKR_PUBLIC = '73a0bbb73ee9d6d1cd8b6a03ae56b20b'
-        FLICKR_SECRET = '318ac4fa3350b331'
-        self.GoogleAPIkey = 'AIzaSyD6RtWqUNMQvRwPFyVlwH_WsGvTyHzm5NI'
+        FLICKR_PUBLIC = ''
+        FLICKR_SECRET = ''
+        self.GoogleAPIkey = ''
         self.flickr = FlickrAPI(FLICKR_PUBLIC, FLICKR_SECRET, format='parsed-json')
         # self.extras='url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o'
         self.extras='url_m,geo'
